@@ -1,0 +1,57 @@
+{
+  "$schema": "https://agentskills.io/schemas/manifest.v1.json",
+  "manifestVersion": "1.0",
+  "generatedAt": "2026-06-07T17:31:28.353516Z",
+  "generator": "skill-manifest-generator/1.0.0",
+  "skill": {
+    "name": "hermes-tweet",
+    "version": "1.0.0"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "hash": "cb566b52f0de55886548672651aa487fbb73cc585cd0ac63847578e43c8dd2a3"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 4249,
+      "sha256": "8447fcdb4bd4e0c9c87f9f3bbadebf67be23bd6190622055cb8bb5957e42ba70",
+      "type": "manifest"
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/Xquik-dev/hermes-tweet",
+      "file": "SKILL.md",
+      "line": 133,
+      "type": "import"
+    },
+    {
+      "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/plugins/",
+      "file": "SKILL.md",
+      "line": 134,
+      "type": "unknown"
+    },
+    {
+      "url": "https://hermes-agent.nousresearch.com/docs/guides/build-a-hermes-plugin/",
+      "file": "SKILL.md",
+      "line": 135,
+      "type": "unknown"
+    },
+    {
+      "url": "https://xquik.com",
+      "file": "SKILL.md",
+      "line": 136,
+      "type": "unknown"
+    }
+  ],
+  "structure": {
+    "maxDepth": 0,
+    "totalFiles": 1,
+    "totalBytes": 4249,
+    "folders": []
+  },
+  "license": {
+    "spdxId": "MIT"
+  }
+}

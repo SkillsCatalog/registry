@@ -1,0 +1,81 @@
+{
+  "$schema": "https://agentskills.io/schemas/manifest.v1.json",
+  "manifestVersion": "1.0",
+  "generatedAt": "2026-06-22T13:49:54.768024Z",
+  "generator": "skill-manifest-generator/1.0.0",
+  "skill": {
+    "name": "xquik",
+    "version": "1.0.0"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "hash": "757544d0976bc4f0edf75e47c5f40f06b01e819599f4d94e86c4afb8d1d26e5f"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 3160,
+      "sha256": "9b7c38eb17a00f8c4141fc79b53a4a9f8365f764ff2d1b09220b256c3a0fe4fa",
+      "type": "manifest"
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://dashboard.xquik.com/en/account",
+      "file": "SKILL.md",
+      "line": 21,
+      "type": "unknown"
+    },
+    {
+      "url": "https://docs.xquik.com/mcp/overview",
+      "file": "SKILL.md",
+      "line": 23,
+      "type": "link"
+    },
+    {
+      "url": "https://xquik.com/.well-known/mcp.json",
+      "file": "SKILL.md",
+      "line": 24,
+      "type": "unknown"
+    },
+    {
+      "url": "https://xquik.com/mcp",
+      "file": "SKILL.md",
+      "line": 31,
+      "type": "unknown"
+    },
+    {
+      "url": "https://docs.xquik.com/mcp/overview",
+      "file": "SKILL.md",
+      "line": 88,
+      "type": "link"
+    },
+    {
+      "url": "https://docs.xquik.com/api-reference/overview",
+      "file": "SKILL.md",
+      "line": 89,
+      "type": "link"
+    },
+    {
+      "url": "https://xquik.com/.well-known/mcp.json",
+      "file": "SKILL.md",
+      "line": 90,
+      "type": "unknown"
+    },
+    {
+      "url": "https://xquik.com/.well-known/agent-skills/index.json",
+      "file": "SKILL.md",
+      "line": 91,
+      "type": "unknown"
+    }
+  ],
+  "structure": {
+    "maxDepth": 0,
+    "totalFiles": 1,
+    "totalBytes": 3160,
+    "folders": []
+  },
+  "license": {
+    "spdxId": "MIT"
+  }
+}

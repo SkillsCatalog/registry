@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agentskills.io/schemas/manifest.v1.json",
+  "manifestVersion": "1.0",
+  "generatedAt": "2026-08-28T00:06:54Z",
+  "generator": "skill-manifest-generator/1.0.0",
+  "skill": {
+    "name": "hol-guard",
+    "version": "1.0.0"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "hash": "cac36b2cf6c0de0697de0e14cd54cb9ce0c5d912e9f1317cd7217d9bd27bdd6f"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 4183,
+      "sha256": "3e74d94abe21a15432c0040ce2e85cfbd9be23896b1d146469d548010cefd63f",
+      "type": "manifest"
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/hashgraph-online/hol-guard",
+      "file": "SKILL.md",
+      "line": 74,
+      "type": "import"
+    }
+  ],
+  "structure": {
+    "maxDepth": 0,
+    "totalFiles": 1,
+    "totalBytes": 4183,
+    "folders": []
+  },
+  "license": {
+    "spdxId": "Apache-2.0"
+  }
+}

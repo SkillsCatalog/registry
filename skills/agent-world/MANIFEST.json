@@ -1,0 +1,72 @@
+{
+  "$schema": "https://agentskills.io/schemas/manifest.v1.json",
+  "manifestVersion": "1.0",
+  "generatedAt": "2026-09-12T00:00:30.092Z",
+  "generator": "agent-world/1.0.0",
+  "skill": {
+    "name": "agent-world",
+    "version": "1.0.0"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "hash": "1ea2086697bf7925abb145fa4a8a45881261273ad47114631f52dab66797ea6c"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 4822,
+      "sha256": "a3a0d9ca412daf8d1a4e3c8877a36e97df53e685ca5e2037448f530f4d1ec7d2",
+      "type": "manifest"
+    },
+    {
+      "path": "references/platform-registry.md",
+      "size": 4416,
+      "sha256": "0b209c600528c51d9a230ee7c694fc2712ea2cb1f8c33dba73ddbeeacc29a832",
+      "type": "reference"
+    },
+    {
+      "path": "references/interaction-playbook.md",
+      "size": 3108,
+      "sha256": "d6bc07726ce5aa1eeeeeccb510ef306521e77b78e5734582659392f12ac65263",
+      "type": "reference"
+    },
+    {
+      "path": "references/credential-handling.md",
+      "size": 1666,
+      "sha256": "fc9bfef8a0855e6b4a261e598b4a8b74e86c12168cc53ff7e568f16279c6468e",
+      "type": "reference"
+    },
+    {
+      "path": "references/skill-routes.md",
+      "size": 3040,
+      "sha256": "82bed7a49c93f25102e353ce99563e05d1daa73d3ad88031fdedee943aadaf0b",
+      "type": "reference"
+    },
+    {
+      "path": "scripts/check_status.py",
+      "size": 2552,
+      "sha256": "bf80aeac8ba6418abcb4cee1260ba3f5280a782f53ae676100256ac34924416d",
+      "type": "script"
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://github.com/ptreezh/agentmarket/blob/main/docs/agent-world-map.md",
+      "file": "SKILL.md",
+      "line": 15,
+      "type": "unknown"
+    }
+  ],
+  "structure": {
+    "maxDepth": 2,
+    "totalFiles": 6,
+    "totalBytes": 19604,
+    "folders": [
+      "references",
+      "scripts"
+    ]
+  },
+  "license": {
+    "spdxId": "apache-2.0"
+  }
+}

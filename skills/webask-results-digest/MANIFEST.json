@@ -1,0 +1,118 @@
+{
+  "$schema": "https://agentskills.io/schemas/manifest.v1.json",
+  "manifestVersion": "1.0",
+  "generatedAt": "2026-09-30T14:02:09.081943Z",
+  "generator": "skill-manifest-generator/1.0.0",
+  "skill": {
+    "name": "webask-results-digest",
+    "version": "1.0.0"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "hash": "37694c7cfeb443f5843bf84496a0f7edc281dab4c657fdc812465c02011e605b"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1063,
+      "sha256": "dad59f2302cebe6e9b1194039c6af18dce715cbba92ec40f97c73dca380684ec",
+      "type": "other"
+    },
+    {
+      "path": "README.md",
+      "size": 983,
+      "sha256": "d9a514fa482bbf9811e0b688c40407b7d5bbd645bb5f489b6b877348801a8ba0",
+      "type": "documentation"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 6674,
+      "sha256": "74e8ec6b82c4e41210535b5c7eaf444cc1b73bad744986dfd5882012b303d303",
+      "type": "manifest"
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://webask.io/",
+      "file": "README.md",
+      "line": 5,
+      "type": "unknown"
+    },
+    {
+      "url": "https://github.com/WebAskio/webask-mcp/tree/main/en/skills/webask-results-digest",
+      "file": "README.md",
+      "line": 7,
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/WebAskio/webask-mcp/tree/main/skills/webask-results-digest",
+      "file": "README.md",
+      "line": 8,
+      "type": "documentation"
+    },
+    {
+      "url": "https://webask.io/dev/api/mcp",
+      "file": "README.md",
+      "line": 9,
+      "type": "api"
+    },
+    {
+      "url": "https://github.com/WebAskio/webask-mcp",
+      "file": "README.md",
+      "line": 10,
+      "type": "documentation"
+    },
+    {
+      "url": "https://mcp.webask.io/mcp/v1",
+      "file": "SKILL.md",
+      "line": 67,
+      "type": "unknown"
+    },
+    {
+      "url": "https://github.com/WebAskio/webask-mcp/blob/main/en/README.md#quick-start",
+      "file": "SKILL.md",
+      "line": 70,
+      "type": "documentation"
+    },
+    {
+      "url": "https://github.com/WebAskio/webask-mcp.git",
+      "file": "SKILL.md",
+      "line": 77,
+      "type": "documentation"
+    },
+    {
+      "url": "https://webask.io/pricing",
+      "file": "SKILL.md",
+      "line": 93,
+      "type": "unknown"
+    },
+    {
+      "url": "https://webask.io/agreement",
+      "file": "SKILL.md",
+      "line": 94,
+      "type": "unknown"
+    },
+    {
+      "url": "https://github.com/WebAskio/webask-mcp/tree/main/skills/webask-results-digest",
+      "file": "SKILL.md",
+      "line": 96,
+      "type": "documentation"
+    },
+    {
+      "url": "https://mcp.webask.io/mcp/v1",
+      "file": "SKILL.md",
+      "line": 143,
+      "type": "unknown"
+    }
+  ],
+  "structure": {
+    "maxDepth": 0,
+    "totalFiles": 3,
+    "totalBytes": 8720,
+    "folders": []
+  },
+  "license": {
+    "spdxId": "MIT",
+    "file": "LICENSE"
+  }
+}

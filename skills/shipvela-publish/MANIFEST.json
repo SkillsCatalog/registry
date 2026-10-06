@@ -1,0 +1,76 @@
+{
+  "$schema": "https://agentskills.io/schemas/manifest.v1.json",
+  "manifestVersion": "1.0",
+  "generatedAt": "2026-10-06T20:50:19.491083Z",
+  "generator": "skill-manifest-generator/1.0.0",
+  "skill": {
+    "name": "shipvela-publish",
+    "version": "0.2.0"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "hash": "f18fb0b455d58467da7648e4d811681517ba2c637bc8c3c13fe321d3355021e2"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1074,
+      "sha256": "815949547a15710dcfaa159ed5378185502b0fc978df00c7a65880fce739625c",
+      "type": "other"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 6175,
+      "sha256": "c034188a16279167225982d66bc5d30b7ba811cbe29da3ecabf49df034d1ecef",
+      "type": "manifest"
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://shipvela.com/integrations/assistants",
+      "file": "SKILL.md",
+      "line": 15,
+      "type": "unknown"
+    },
+    {
+      "url": "https://shipvela.com/docs",
+      "file": "SKILL.md",
+      "line": 22,
+      "type": "unknown"
+    },
+    {
+      "url": "https://shipvela.com/billing",
+      "file": "SKILL.md",
+      "line": 46,
+      "type": "unknown"
+    },
+    {
+      "url": "https://shipvela.com/settings#coding-assistants",
+      "file": "SKILL.md",
+      "line": 46,
+      "type": "unknown"
+    },
+    {
+      "url": "https://github.com/stefanautomateed/shipvela-codex/tree/main/plugins/shipvela/skills/publish",
+      "file": "SKILL.md",
+      "line": 51,
+      "type": "documentation"
+    },
+    {
+      "url": "https://shipvela.com/mcp",
+      "file": "SKILL.md",
+      "line": 53,
+      "type": "unknown"
+    }
+  ],
+  "structure": {
+    "maxDepth": 0,
+    "totalFiles": 2,
+    "totalBytes": 7249,
+    "folders": []
+  },
+  "license": {
+    "spdxId": "MIT",
+    "file": "LICENSE"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "$schema": "https://agentskills.io/schemas/manifest.v1.json",
+  "manifestVersion": "1.0",
+  "generatedAt": "2026-11-14T20:48:05.902982Z",
+  "generator": "skill-manifest-generator/1.0.0",
+  "skill": {
+    "name": "govisit-list-destination-highlights",
+    "version": "1.0.0"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "hash": "61cf56fbe3a25b7582305369503c847e4cbe067101fee3b6680e5d14275398dc"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1070,
+      "sha256": "4f3de5d0023f675f4c7afa0064eba70170423af68566ade518aeb946095f2085",
+      "type": "other"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 5365,
+      "sha256": "1b834e815b67170b23773f0fe44c05d7e6cb5ad227ffee85eff3d19426e827b9",
+      "type": "manifest"
+    },
+    {
+      "path": "references/contract.json",
+      "size": 1837,
+      "sha256": "d8e9ebe38690f450c4acef1854992aa00df586ae230afb641396d29bbf815e27",
+      "type": "config"
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://raw.githubusercontent.com/inhotel-io/govisit-toolkit/v0.2.0/skills/govisit-list-destination-highlights/SKILL.md",
+      "file": "SKILL.md",
+      "line": 17,
+      "type": "link"
+    },
+    {
+      "url": "https://govisit.ai/api/tools/v1/list_destination_highlights",
+      "file": "SKILL.md",
+      "line": 27,
+      "type": "api"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/inhotel-io/govisit-toolkit/v0.2.0/skills/govisit-list-destination-highlights/references/contract.json",
+      "file": "SKILL.md",
+      "line": 40,
+      "type": "unknown"
+    },
+    {
+      "url": "https://govisit.ai/.well-known/webmcp.json",
+      "file": "SKILL.md",
+      "line": 64,
+      "type": "unknown"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/inhotel-io/govisit-toolkit/v0.2.0/skills/govisit-list-destination-highlights/SKILL.md",
+      "file": "SKILL.md",
+      "line": 70,
+      "type": "link"
+    },
+    {
+      "url": "https://github.com/inhotel-io/govisit-toolkit/releases/download/v0.2.0/govisit-skill-list-destination-highlights.tar.gz",
+      "file": "SKILL.md",
+      "line": 72,
+      "type": "download"
+    },
+    {
+      "url": "https://govisit.ai/.well-known/agent-skills/index.json",
+      "file": "SKILL.md",
+      "line": 74,
+      "type": "unknown"
+    },
+    {
+      "url": "https://govisit.ai/en/docs/general/data-use-license",
+      "file": "SKILL.md",
+      "line": 89,
+      "type": "unknown"
+    },
+    {
+      "url": "https://govisit.ai/api/tools/v1/list_destination_highlights",
+      "file": "references/contract.json",
+      "line": 5,
+      "type": "api"
+    }
+  ],
+  "structure": {
+    "maxDepth": 1,
+    "totalFiles": 3,
+    "totalBytes": 8272,
+    "folders": [
+      "references"
+    ]
+  },
+  "license": {
+    "spdxId": "MIT",
+    "file": "LICENSE"
+  }
+}

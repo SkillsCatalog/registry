@@ -1,0 +1,102 @@
+{
+  "$schema": "https://agentskills.io/schemas/manifest.v1.json",
+  "manifestVersion": "1.0",
+  "generatedAt": "2026-11-14T20:48:05.392895Z",
+  "generator": "skill-manifest-generator/1.0.0",
+  "skill": {
+    "name": "govisit-get-place-overview",
+    "version": "1.0.0"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "hash": "24969add16eada8471cacfa5f6d5854cf20c6a0564fdf9d811af535ca379c505"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1070,
+      "sha256": "4f3de5d0023f675f4c7afa0064eba70170423af68566ade518aeb946095f2085",
+      "type": "other"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 5353,
+      "sha256": "b34b91f603f55ea6cddf68d3e40d1be91635e19ef6a79b8e5dcb199a42559f55",
+      "type": "manifest"
+    },
+    {
+      "path": "references/contract.json",
+      "size": 8135,
+      "sha256": "c85cfb69b51046b5b9e7cbbc7d6a848feb1c961346f190c198a58f9bd1480cc0",
+      "type": "config"
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://raw.githubusercontent.com/inhotel-io/govisit-toolkit/v0.2.0/skills/govisit-get-place-overview/SKILL.md",
+      "file": "SKILL.md",
+      "line": 17,
+      "type": "link"
+    },
+    {
+      "url": "https://govisit.ai/api/tools/v1/get_place_overview",
+      "file": "SKILL.md",
+      "line": 27,
+      "type": "api"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/inhotel-io/govisit-toolkit/v0.2.0/skills/govisit-get-place-overview/references/contract.json",
+      "file": "SKILL.md",
+      "line": 39,
+      "type": "unknown"
+    },
+    {
+      "url": "https://govisit.ai/.well-known/webmcp.json",
+      "file": "SKILL.md",
+      "line": 64,
+      "type": "unknown"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/inhotel-io/govisit-toolkit/v0.2.0/skills/govisit-get-place-overview/SKILL.md",
+      "file": "SKILL.md",
+      "line": 70,
+      "type": "link"
+    },
+    {
+      "url": "https://github.com/inhotel-io/govisit-toolkit/releases/download/v0.2.0/govisit-skill-get-place-overview.tar.gz",
+      "file": "SKILL.md",
+      "line": 72,
+      "type": "download"
+    },
+    {
+      "url": "https://govisit.ai/.well-known/agent-skills/index.json",
+      "file": "SKILL.md",
+      "line": 74,
+      "type": "unknown"
+    },
+    {
+      "url": "https://govisit.ai/en/docs/general/data-use-license",
+      "file": "SKILL.md",
+      "line": 89,
+      "type": "unknown"
+    },
+    {
+      "url": "https://govisit.ai/api/tools/v1/get_place_overview",
+      "file": "references/contract.json",
+      "line": 5,
+      "type": "api"
+    }
+  ],
+  "structure": {
+    "maxDepth": 1,
+    "totalFiles": 3,
+    "totalBytes": 14558,
+    "folders": [
+      "references"
+    ]
+  },
+  "license": {
+    "spdxId": "MIT",
+    "file": "LICENSE"
+  }
+}

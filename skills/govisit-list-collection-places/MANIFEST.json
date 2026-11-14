@@ -1,0 +1,102 @@
+{
+  "$schema": "https://agentskills.io/schemas/manifest.v1.json",
+  "manifestVersion": "1.0",
+  "generatedAt": "2026-11-14T20:48:05.705406Z",
+  "generator": "skill-manifest-generator/1.0.0",
+  "skill": {
+    "name": "govisit-list-collection-places",
+    "version": "1.0.0"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "hash": "2186849daba13fc23558c4489b812922d65bb4ef712f783321bdbe2ed5fe23fa"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1070,
+      "sha256": "4f3de5d0023f675f4c7afa0064eba70170423af68566ade518aeb946095f2085",
+      "type": "other"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 5481,
+      "sha256": "858dea76b21b5cb9b224f0fcdff1a7a75a18f0d67f824f2d8216be6f4a25fb0b",
+      "type": "manifest"
+    },
+    {
+      "path": "references/contract.json",
+      "size": 2685,
+      "sha256": "58438d3a405cb6909a0f07f73fe8032286652739287ef2cc1b93c212728cc9ad",
+      "type": "config"
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://raw.githubusercontent.com/inhotel-io/govisit-toolkit/v0.2.0/skills/govisit-list-collection-places/SKILL.md",
+      "file": "SKILL.md",
+      "line": 17,
+      "type": "link"
+    },
+    {
+      "url": "https://govisit.ai/api/tools/v1/list_collection_places",
+      "file": "SKILL.md",
+      "line": 27,
+      "type": "api"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/inhotel-io/govisit-toolkit/v0.2.0/skills/govisit-list-collection-places/references/contract.json",
+      "file": "SKILL.md",
+      "line": 40,
+      "type": "unknown"
+    },
+    {
+      "url": "https://govisit.ai/.well-known/webmcp.json",
+      "file": "SKILL.md",
+      "line": 65,
+      "type": "unknown"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/inhotel-io/govisit-toolkit/v0.2.0/skills/govisit-list-collection-places/SKILL.md",
+      "file": "SKILL.md",
+      "line": 71,
+      "type": "link"
+    },
+    {
+      "url": "https://github.com/inhotel-io/govisit-toolkit/releases/download/v0.2.0/govisit-skill-list-collection-places.tar.gz",
+      "file": "SKILL.md",
+      "line": 73,
+      "type": "download"
+    },
+    {
+      "url": "https://govisit.ai/.well-known/agent-skills/index.json",
+      "file": "SKILL.md",
+      "line": 75,
+      "type": "unknown"
+    },
+    {
+      "url": "https://govisit.ai/en/docs/general/data-use-license",
+      "file": "SKILL.md",
+      "line": 90,
+      "type": "unknown"
+    },
+    {
+      "url": "https://govisit.ai/api/tools/v1/list_collection_places",
+      "file": "references/contract.json",
+      "line": 5,
+      "type": "api"
+    }
+  ],
+  "structure": {
+    "maxDepth": 1,
+    "totalFiles": 3,
+    "totalBytes": 9236,
+    "folders": [
+      "references"
+    ]
+  },
+  "license": {
+    "spdxId": "MIT",
+    "file": "LICENSE"
+  }
+}

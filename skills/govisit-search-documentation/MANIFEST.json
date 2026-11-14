@@ -1,0 +1,102 @@
+{
+  "$schema": "https://agentskills.io/schemas/manifest.v1.json",
+  "manifestVersion": "1.0",
+  "generatedAt": "2026-11-14T20:48:06.161302Z",
+  "generator": "skill-manifest-generator/1.0.0",
+  "skill": {
+    "name": "govisit-search-documentation",
+    "version": "1.0.0"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "hash": "3a49f7cd290d13e575f67b97557860c2d0b52755b7af44c55719736e28688706"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1070,
+      "sha256": "4f3de5d0023f675f4c7afa0064eba70170423af68566ade518aeb946095f2085",
+      "type": "other"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 5408,
+      "sha256": "d94fd576dd46bd499c4fe9629030b96acd81df2e3f32275f9035548ebcfbca69",
+      "type": "manifest"
+    },
+    {
+      "path": "references/contract.json",
+      "size": 1952,
+      "sha256": "5eec9257a5bfd5790f352a696df2aea4de8a6aac113fc5a39bd364655cd94246",
+      "type": "config"
+    }
+  ],
+  "externalReferences": [
+    {
+      "url": "https://raw.githubusercontent.com/inhotel-io/govisit-toolkit/v0.2.0/skills/govisit-search-documentation/SKILL.md",
+      "file": "SKILL.md",
+      "line": 17,
+      "type": "link"
+    },
+    {
+      "url": "https://govisit.ai/api/tools/v1/search_documentation",
+      "file": "SKILL.md",
+      "line": 27,
+      "type": "api"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/inhotel-io/govisit-toolkit/v0.2.0/skills/govisit-search-documentation/references/contract.json",
+      "file": "SKILL.md",
+      "line": 41,
+      "type": "link"
+    },
+    {
+      "url": "https://govisit.ai/.well-known/webmcp.json",
+      "file": "SKILL.md",
+      "line": 65,
+      "type": "unknown"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/inhotel-io/govisit-toolkit/v0.2.0/skills/govisit-search-documentation/SKILL.md",
+      "file": "SKILL.md",
+      "line": 71,
+      "type": "link"
+    },
+    {
+      "url": "https://github.com/inhotel-io/govisit-toolkit/releases/download/v0.2.0/govisit-skill-search-documentation.tar.gz",
+      "file": "SKILL.md",
+      "line": 73,
+      "type": "download"
+    },
+    {
+      "url": "https://govisit.ai/.well-known/agent-skills/index.json",
+      "file": "SKILL.md",
+      "line": 75,
+      "type": "unknown"
+    },
+    {
+      "url": "https://govisit.ai/en/docs/general/data-use-license",
+      "file": "SKILL.md",
+      "line": 90,
+      "type": "unknown"
+    },
+    {
+      "url": "https://govisit.ai/api/tools/v1/search_documentation",
+      "file": "references/contract.json",
+      "line": 5,
+      "type": "api"
+    }
+  ],
+  "structure": {
+    "maxDepth": 1,
+    "totalFiles": 3,
+    "totalBytes": 8430,
+    "folders": [
+      "references"
+    ]
+  },
+  "license": {
+    "spdxId": "MIT",
+    "file": "LICENSE"
+  }
+}

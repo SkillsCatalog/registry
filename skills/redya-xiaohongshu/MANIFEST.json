@@ -1,0 +1,47 @@
+{
+  "$schema": "https://agentskills.io/schemas/manifest.v1.json",
+  "manifestVersion": "1.0",
+  "generatedAt": "2026-11-26T13:28:52.970735Z",
+  "generator": "skill-manifest-generator/1.0.0",
+  "skill": {
+    "name": "redya-xiaohongshu",
+    "version": "1.0.0"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "hash": "1bb9f3f88db09ff3e8f4b3cbbae391ee6233be47bb63c179b5a95d6f5cc4e7f7"
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 713,
+      "sha256": "cd96fb5afc1f933e390d30a7890c7392031115c55d8af8a743dc5b59fde1f527",
+      "type": "other"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 30847,
+      "sha256": "eccdda3ed11d507a8b50eba8bc885525853c2fac23687e855d0210801603e148",
+      "type": "manifest"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "size": 68,
+      "sha256": "0027bcb2ec2d66b2556fee0dbd907b1b1b5c928b85a32f480b08b1f2e19804cb",
+      "type": "config"
+    }
+  ],
+  "externalReferences": [],
+  "structure": {
+    "maxDepth": 1,
+    "totalFiles": 3,
+    "totalBytes": 31628,
+    "folders": [
+      "agents"
+    ]
+  },
+  "license": {
+    "spdxId": "MIT",
+    "file": "LICENSE"
+  }
+}
